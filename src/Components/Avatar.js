@@ -3,7 +3,8 @@ export function Avatar() {
     return(
         <>
         <div className="avatar">
-            Insert avatar here...
+            <img src="avatar_github.png"
+                 alt="githubAvatar"/>
         </div>
         </>
     )

@@ -35,6 +35,14 @@ h1 {
   display: block;
 }
 
+/*center the image*/
+.avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
 .bioBlerb {
   padding: 32px;
   padding-top: 24px;
