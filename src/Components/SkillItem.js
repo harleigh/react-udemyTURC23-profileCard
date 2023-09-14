@@ -18,7 +18,7 @@ export function SkillItem({skillName}) {
         <>
         <div className="skillItem"
              style={{backgroundColor: rndColor.toString()}} >
-            {skillName}
+            <span>{skillName}</span>
         </div>
         </>
     )
