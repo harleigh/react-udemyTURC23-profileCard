@@ -1,4 +1,4 @@
-import {skillsData} from "../skillData"
+import {skillsData, emojiLevel} from "../skillData"
 import { SkillItem } from "./SkillItem"
 export function SkillList() {
 
@@ -6,6 +6,7 @@ export function SkillList() {
         const skillItems = skillsData.map( (skill)=>{
             return(
                 <SkillItem  skillName={skill.name}
+                            skillLevelEmoji={emojiLevel[skill.level]}
                             key={crypto.randomUUID()} />
             )
         })

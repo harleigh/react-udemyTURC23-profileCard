@@ -1,4 +1,11 @@
 
+export const emojiLevel = {
+    "Beginner": "🅱️",
+    "Intermediate": "💪🏻",
+    "Advanced": "🌟",
+} 
+
+
 export const skillsData = [
     {name: "JavaScript",
      level:"Advanced"},
